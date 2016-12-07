@@ -1,0 +1,21 @@
+### IDE Files ###
+.idea/
+*.iml
+.vscode
+
+### Build artifacts ###
+/dist
+
+### NPM files ###
+/node_modules
+npm-debug.log
+
+### MAAAAC ###
+.DS_Store
+
+### Settings ###
+
+/typings/*
+!/typings/global.d.ts
+examples/
+typings/

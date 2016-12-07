@@ -1,0 +1,11 @@
+{
+  "version": false,
+  "globalDevDependencies": {
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#e937b3e64af586d19f2ea29fdf771e9dc4feecc8",
+    "react": "registry:dt/react#0.14.0+20161203201537"
+  },
+  "dependencies": {},
+  "globalDependencies": {
+    "react-dom": "registry:dt/react-dom#0.14.0+20160412154040"
+  }
+}
