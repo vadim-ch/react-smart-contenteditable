@@ -1,5 +1,5 @@
 import * as React from 'react';
-// import { Editor } from './editor';
+import { Editor } from './editor-state';
 // let styles = require('./style.css');
 
 export interface State {
@@ -55,7 +55,7 @@ export class ContentEditable extends React.Component<Props, State> {
   private onInput(): void {
     const { onInput } = this.props;
     if (onInput) {
-      // onInput(new Editor(R.clone(this.refs.editor)));
+      onInput(new Editor(this.refs.editor.innerHTML, this.refs.editor.textContent));
     }
   }
 
